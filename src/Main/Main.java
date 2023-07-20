@@ -48,7 +48,7 @@ public class Main {
                     cs.removeClient(idRemove);
                     break;
                 case 5:
-                    rs.routineCreation(routine);
+                    rs.instanciarRutina();
                     break;
                 case 6:
                     rs.getRoutines();

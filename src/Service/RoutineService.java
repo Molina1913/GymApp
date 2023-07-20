@@ -11,6 +11,11 @@ public class RoutineService {
     Scanner read = new Scanner(System.in).useDelimiter("\n");
     ArrayList<Routine> routines = new ArrayList<>();
 
+    public void instanciarRutina(){
+        Routine routine=new Routine();
+        routineCreation(routine);
+    }
+
     public void routineCreation(Routine routine) {
 
         System.out.println(">>>Enter your ID number");

@@ -80,6 +80,7 @@ public class ClientService {
 
                     }
                 }while (response!=0);
+                break;
             }else {
                 System.out.println("The ID does not exist");
             }
